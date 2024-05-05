@@ -1,0 +1,121 @@
+cs1302-api-app:
+total 64
+-rw-r--r--. 1 myid 10720 May  3 17:32 APPENDIX_API.md
+-rw-r--r--. 1 myid  3426 May  3 17:32 APPENDIX_GIT.md
+drwxr-xr-x. 2 myid    59 May  5 16:14 meta
+-rw-r--r--. 1 myid  8409 May  3 17:32 pom.xml
+-rwxr-xr-x. 1 myid   105 May  3 17:32 prepare-merge.sh
+-rw-r--r--. 1 myid 28524 May  3 17:32 README.md
+-rw-r--r--. 1 myid     0 May  5 16:30 rec5737
+drwxr-xr-x. 2 myid    98 May  3 17:32 resources
+-rwxr-xr-x. 1 myid   119 May  3 17:32 run.sh
+drwxr-xr-x. 4 myid    42 May  3 17:32 src
+drwxr-xr-x. 5 myid   104 May  5 16:25 target
+
+cs1302-api-app/meta:
+total 8
+-rw-r--r--. 1 myid  999 May  3 17:32 ATTRIBUTION.md
+-rw-r--r--. 1 myid 2638 May  5 16:14 DEADLINE.md
+
+cs1302-api-app/resources:
+total 2060
+-rw-r--r--. 1 myid      64 May  3 17:32 config.properties
+-rw-r--r--. 1 myid  582183 May  3 17:32 readme-banner.png
+-rw-r--r--. 1 myid 1518790 May  3 17:32 readme-newrepo.png
+
+cs1302-api-app/src:
+total 0
+drwxr-xr-x. 3 myid 26 May  3 17:32 main
+drwxr-xr-x. 3 myid 50 May  3 17:32 site
+
+cs1302-api-app/src/main:
+total 0
+drwxr-xr-x. 3 myid 56 May  3 17:32 java
+
+cs1302-api-app/src/main/java:
+total 4
+drwxr-xr-x. 3 myid  25 May  4 15:33 cs1302
+-rw-r--r--. 1 myid 373 May  3 17:32 module-info.java
+
+cs1302-api-app/src/main/java/cs1302:
+total 0
+drwxr-xr-x. 2 myid 232 May  5 16:25 api
+
+cs1302-api-app/src/main/java/cs1302/api:
+total 48
+-rw-r--r--. 1 myid 10420 May  5 16:25 ApiApp.java
+-rw-r--r--. 1 myid  1285 May  3 17:32 ApiDriver.java
+-rw-r--r--. 1 myid   139 May  5 14:45 ApiResult.java
+-rw-r--r--. 1 myid   947 May  5 14:28 ApiThing.java
+-rw-r--r--. 1 myid  1374 May  5 14:44 CurrentWeather.java
+-rw-r--r--. 1 myid  4332 May  3 17:32 OpenLibrarySearchApi.java
+-rw-r--r--. 1 myid  1689 May  3 17:32 PropertiesExample.java
+-rw-r--r--. 1 myid  1262 May  5 14:45 StandardAddress.java
+-rw-r--r--. 1 myid  1105 May  5 14:42 WeatherData.java
+
+cs1302-api-app/src/site:
+total 4
+drwxr-xr-x. 2 myid  33 May  3 17:32 markdown
+-rw-r--r--. 1 myid 424 May  3 17:32 site.xml
+
+cs1302-api-app/src/site/markdown:
+total 4
+-rw-r--r--. 1 myid 133 May  3 17:32 index.md.vm
+
+cs1302-api-app/target:
+total 4
+drwxr-xr-x. 3 myid  121 May  5 16:25 classes
+drwxr-xr-x. 3 myid   33 May  5 16:25 generated-sources
+drwxr-xr-x. 3 myid   35 May  5 16:25 maven-status
+-rw-r--r--. 1 myid 1299 May  5 16:25 modulepath
+
+cs1302-api-app/target/classes:
+total 2064
+-rw-r--r--. 1 myid      64 May  5 16:25 config.properties
+drwxr-xr-x. 3 myid      17 May  5 16:25 cs1302
+-rw-r--r--. 1 myid     356 May  5 16:25 module-info.class
+-rw-r--r--. 1 myid  582183 May  5 16:25 readme-banner.png
+-rw-r--r--. 1 myid 1518790 May  5 16:25 readme-newrepo.png
+
+cs1302-api-app/target/classes/cs1302:
+total 4
+drwxr-xr-x. 2 myid 4096 May  5 16:25 api
+
+cs1302-api-app/target/classes/cs1302/api:
+total 56
+-rw-r--r--. 1 myid 10067 May  5 16:25 ApiApp.class
+-rw-r--r--. 1 myid  1503 May  5 16:25 ApiDriver.class
+-rw-r--r--. 1 myid   356 May  5 16:25 ApiResult.class
+-rw-r--r--. 1 myid   677 May  5 16:25 ApiThing.class
+-rw-r--r--. 1 myid   825 May  5 16:25 CurrentWeather.class
+-rw-r--r--. 1 myid  5993 May  5 16:25 OpenLibrarySearchApi.class
+-rw-r--r--. 1 myid   493 May  5 16:25 OpenLibrarySearchApi$OpenLibraryDoc.class
+-rw-r--r--. 1 myid   617 May  5 16:25 OpenLibrarySearchApi$OpenLibraryResult.class
+-rw-r--r--. 1 myid  1688 May  5 16:25 PropertiesExample.class
+-rw-r--r--. 1 myid  1023 May  5 16:25 StandardAddress.class
+-rw-r--r--. 1 myid  1025 May  5 16:25 WeatherData.class
+
+cs1302-api-app/target/generated-sources:
+total 0
+drwxr-xr-x. 2 myid 10 May  5 16:25 annotations
+
+cs1302-api-app/target/generated-sources/annotations:
+total 0
+
+cs1302-api-app/target/maven-status:
+total 0
+drwxr-xr-x. 3 myid 29 May  5 16:25 maven-compiler-plugin
+
+cs1302-api-app/target/maven-status/maven-compiler-plugin:
+total 0
+drwxr-xr-x. 3 myid 37 May  5 16:25 compile
+
+cs1302-api-app/target/maven-status/maven-compiler-plugin/compile:
+total 0
+drwxr-xr-x. 2 myid 64 May  5 16:25 default-compile
+
+cs1302-api-app/target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r--. 1 myid 398 May  5 16:25 createdFiles.lst
+-rw-r--r--. 1 myid 769 May  5 16:25 inputFiles.lst
+/home/myid/ldb94752/cs1302-api-app:/home/myid/csci-1302

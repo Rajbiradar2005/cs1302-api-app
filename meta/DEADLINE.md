@@ -13,6 +13,7 @@ Markdown is transformed into nice-looking HTML.
 > in a meaningful way.
 
 > **Also, include the GitHub `https` URL to your repository.**
+https://github.com/shinysheep05/cs1302-api-app/tree/main/src/main/java/cs1302/api
 
 TODO WRITE / REPLACE
 
