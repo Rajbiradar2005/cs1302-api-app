@@ -124,7 +124,8 @@ public class ApiApp extends Application {
                 weatherLabel.setText("This address does not exit. Please check for typos.");
                 cordLabel.setText("Latitude and Longitude does not exit.");
             } else {
-                weatherLabel.setText("The temperature is: " +  weatherData.getCurrent().getTempr());
+                weatherLabel.setText("The temperature is: " +
+                                      weatherData.getCurrent().getTempr() + "F");
             }
 
 
@@ -171,8 +172,8 @@ public class ApiApp extends Application {
             if (apiThing.getLatt().equals("0.00000") && apiThing.getLongt().equals("0.00000")) {
                 throw new IOException("The address does not exist");
             } else {
-                cordLabel.setText("Latitude: " + apiThing.getLatt() + " Longitude: " +
-                                   apiThing.getLongt());
+                cordLabel.setText("Latitude: " + apiThing.getLatt() + " degrees  Longitude: " +
+                                   apiThing.getLongt() + " degrees");
             }
 
 
@@ -302,7 +303,7 @@ public class ApiApp extends Application {
 
         this.stage = stage;
 
-        // demonstrate how to load local asset using "file:resources/"
+
         Image bannerImage = new Image("file:resources/");
         ImageView banner = new ImageView(bannerImage);
         banner.setPreserveRatio(true);
